@@ -1,0 +1,102 @@
+.App {
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.playlist-container {
+    display: flex;
+    border-bottom: solid 4px rgba(190, 144, 212,.7);
+    border-top: solid 4px rgba(190, 144, 212,.7);
+    border-radius: 20px;
+    padding: 20px 0;
+    margin: 20px 0;
+    background-color: skyblue;
+    color: white;
+}
+
+.playlist-item {
+    display: flex;
+    padding: 10px;
+    width: 30%;
+    margin: 20px;
+}
+
+    .playlist-item img {
+        display: block;
+        text-align: center;
+        margin: 20px;
+        border-radius: 50px;
+        border: solid 3px rgba(148, 124, 176, 1);
+    }
+
+.playlist-item-left {
+    width: 30%;
+}
+
+.playlist-item-right {
+    width: 70%;
+    margin-left: 10px;
+    position: relative;
+}
+
+    .playlist-item-right p {
+        font-size: 13px;
+        color: white;
+    }
+
+.button {
+    border-radius: 10px;
+    background: rgba(102, 51, 153, 1);
+    color: white;
+    padding: 3px 10px;
+}
+
+    .button:hover {
+        opacity: .7;
+    }
+
+.button-playlist {
+    bottom: 2px;
+    right: 2px;
+    position: absolute;
+}
+
+.divstyle {
+    border: solid 3px rgba(148, 124, 176, 1);
+    background: rgba(190, 144, 212,.7);
+    border-radius: 7px;
+}
